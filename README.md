@@ -9,7 +9,7 @@ See [griphaugland/bouncer](https://github.com/griphaugland/bouncer).
 
 ```sh
 brew install griphaugland/tap/bouncer          # CLI + daemon
-bouncer install                                # daemon, shims, Claude Code hooks
+bouncer setup                                  # scans the Mac, connects your agents, starts the daemon
 brew install --cask griphaugland/tap/bouncer   # menu bar app (optional)
 ```
 

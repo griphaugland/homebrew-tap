@@ -1,8 +1,8 @@
-cask "bouncer" do
-  version "0.5.0"
-  sha256 "7cdf0d40a6d008916488d25e6fe39a8dd3de77696a56b33f1d523080d8305b00"
+cask "bouncer-app" do
+  version "0.5.1"
+  sha256 "06899fbace1ec68f7d30084ec68d8dec07da7d5e507c26c64fa1a5eb9e6ccc88"
 
-  url "https://github.com/griphaugland/bouncer/releases/download/v0.5.0/Bouncer-#{version}.app.zip"
+  url "https://github.com/griphaugland/bouncer/releases/download/v0.5.1/Bouncer-#{version}.app.zip"
   name "Bouncer"
   desc "Menu bar view of Bouncer's build queue and memory pressure"
   homepage "https://github.com/griphaugland/bouncer"
@@ -16,6 +16,6 @@ cask "bouncer" do
 
   caveats <<~EOS
     The menu bar app shows the daemon installed by the bouncer formula. If you haven't yet:
-      bouncer install
+      bouncer setup
   EOS
 end

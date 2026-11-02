@@ -1,8 +1,8 @@
 cask "bouncer-app" do
-  version "0.5.1"
-  sha256 "06899fbace1ec68f7d30084ec68d8dec07da7d5e507c26c64fa1a5eb9e6ccc88"
+  version "0.5.2"
+  sha256 "a835d13897afbe49c024458f9b5ef0d146770f040ce626e83a1f7062845ddfc5"
 
-  url "https://github.com/griphaugland/bouncer/releases/download/v0.5.1/Bouncer-#{version}.app.zip"
+  url "https://github.com/griphaugland/bouncer/releases/download/v0.5.2/Bouncer-#{version}.app.zip"
   name "Bouncer"
   desc "Menu bar view of Bouncer's build queue and memory pressure"
   homepage "https://github.com/griphaugland/bouncer"

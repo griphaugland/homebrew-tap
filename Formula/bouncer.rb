@@ -1,19 +1,19 @@
 class Bouncer < Formula
   desc "Queue heavy builds by memory pressure so many AI coding agents can share one Mac"
   homepage "https://github.com/griphaugland/bouncer"
-  version "0.5.1"
+  version "0.5.2"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/griphaugland/bouncer/releases/download/v0.5.1/bouncer-0.5.1-darwin-arm64.tar.gz"
-      sha256 "fd0996108c509c62fbac9d2a85d2b5615eb7e4505438cbcd971bc559fa65c41a"
+      url "https://github.com/griphaugland/bouncer/releases/download/v0.5.2/bouncer-0.5.2-darwin-arm64.tar.gz"
+      sha256 "ea260e8c56f538ed5984e29061967749f8cb5cfe17dbf84336bb0fac534dc009"
     end
     on_intel do
-      url "https://github.com/griphaugland/bouncer/releases/download/v0.5.1/bouncer-0.5.1-darwin-x64.tar.gz"
-      sha256 "79ff85766f842eafac3c88c21ffc413c984e631cacd1431d71a0b053dadf443c"
+      url "https://github.com/griphaugland/bouncer/releases/download/v0.5.2/bouncer-0.5.2-darwin-x64.tar.gz"
+      sha256 "cec240794a75f681ff77d0e55aac9de393dba0ab27de47c632658bf661082db7"
     end
   end
 
